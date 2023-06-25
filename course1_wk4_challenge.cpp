@@ -23,7 +23,7 @@
  * arguments, and initializes the
  * member variable sum with their sum.
  */
-sumPair::sumPair(int a, int b) {
+sumPair::sumPair(int a, int b) : Pair(a, b) {
   sum = a + b;
 }
 
